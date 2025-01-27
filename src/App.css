@@ -1,0 +1,61 @@
+/* App.css */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #228B22 !important; /* Dark Green for text */
+    background-color: #FFFFFF; /* White background */
+  }
+  
+  .btn-primary {
+    background-color: #228B22 !important; /* Dark Green */
+    border-color: #228B22 !important;
+    color: #FFFFFF !important; /* White text */
+  }
+  
+  .btn-primary:hover {
+    background-color: #1C6E1C !important; /* Slightly darker green */
+    border-color: #1C6E1C !important;
+  }
+  
+  .navbar-dark {
+    background-color: #228B22 !important; /* Dark Green */
+  }
+  
+  .card {
+    border: 1px solid #B2F2BB !important; /* Mint Green border */
+    transition: transform 0.3s ease !important;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px) !important;
+  }
+  
+  .footer {
+    background-color: #228B22 !important; /* Dark Green */
+    color: #FFFFFF !important; /* White text */
+    padding: 20px 0 !important;
+  }
+  .hero-section h1 {
+ 
+    font-weight: 400; /* Bold */
+  }
+  
+  .hero-section p {
+    font-weight: 200; /* Medium */
+  }
+.nav-link{
+  color:white !important;
+}
+/* Menu Card Styles */
+.menu-card {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.menu-card img {
+  width: 100% ;
+  height: 70% ; /* Fixed height for the image */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
