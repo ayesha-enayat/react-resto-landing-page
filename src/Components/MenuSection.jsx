@@ -4,7 +4,7 @@ import pizzaImage from '../assets/pizza.avif'; // Import images
 import burgerImage from '../assets/burger.avif';
 import pastaImage from '../assets/pasta.avif';
 
-const Menu = () => {
+const MenuSection = () => {
   const menuItems = [
     { id: 1, name: 'Pizza', description: 'Cheesy and delicious', price: '$10', image: pizzaImage },
     { id: 2, name: 'Burger', description: 'Juicy and flavorful', price: '$8', image: burgerImage },
@@ -32,4 +32,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default MenuSection;
